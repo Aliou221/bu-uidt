@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — Bibliothèque Universitaire UIDT</title>
+  <meta name="description" content="Découvrez les services proposés par la Bibliothèque Universitaire de l'UIDT : consultation, prêt de documents, ressources numériques, accompagnement des usagers et plus encore." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAVIGATION ===================== -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+
+      <!-- Logo -->
+      <a href="accueil.html" class="logo" aria-label="Bibliothèque Universitaire UIDT — Accueil">
+        <div class="logo-emblem" aria-hidden="true">
+          <img src="images/logo-uidt.jpeg" alt="Logo UIDT" style="width:42px;height:42px;object-fit:cover;border-radius:6px;display:block;" />
+        </div>
+        <div class="logo-text">
+          <span class="name">BU — UIDT</span>
+          <span class="subtitle">Bibliothèque Universitaire</span>
+        </div>
+      </a>
+
+      <!-- Nav Toggle (mobile) -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Navigation -->
+      <nav class="site-nav" id="site-nav" role="navigation" aria-label="Navigation principale">
+        <a href="accueil.html" class="nav-link">Accueil</a>
+        <a href="services.html" class="nav-link active" aria-current="page">Services</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ===================== PAGE HERO ===================== -->
+    <section class="page-hero" aria-label="En-tête de page">
+      <div class="container page-hero-content">
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <a href="accueil.html">Accueil</a>
+          <span class="breadcrumb-sep" aria-hidden="true">›</span>
+          <span aria-current="page">Services</span>
+        </nav>
+        <h1 class="animate-fade-up">Nos Services</h1>
+        <p class="animate-fade-up animate-delay-1">
+          La Bibliothèque Universitaire de l'UIDT met à votre disposition un large éventail de services pour accompagner votre parcours académique et scientifique.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="section" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <span class="section-label">Ce que nous offrons</span>
+        <h2 class="section-title" id="services-heading">Services proposés</h2>
+        <p class="section-subtitle">
+          Cinq services essentiels pour répondre aux besoins de la communauté universitaire.
+        </p>
+
+        <ol class="services-list" aria-label="Liste des services">
+
+          <!-- Service 1 -->
+          <li class="service-item" id="service-consultation">
+            <div class="service-number" aria-hidden="true">01</div>
+            <div class="service-body">
+              <h3>Consultation des documents</h3>
+              <p>Accès sur place aux ouvrages, revues et archives de la bibliothèque. Nos collections couvrent l'ensemble des disciplines enseignées à l'université, et nos bibliothécaires sont disponibles pour vous orienter vers les ressources les plus pertinentes.</p>
+            </div>
+          </li>
+
+          <!-- Service 2 -->
+          <li class="service-item" id="service-pret">
+            <div class="service-number" aria-hidden="true">02</div>
+            <div class="service-body">
+              <h3>Prêt de documents</h3>
+              <p>Possibilité d'emprunter des documents pour une durée déterminée, selon le règlement en vigueur. Le prêt est accessible aux étudiants et enseignants titulaires d'une carte de bibliothèque valide. Un renouvellement est possible si le document n'est pas réservé par un autre usager.</p>
+            </div>
+          </li>
+
+          <!-- Service 3 -->
+          <li class="service-item" id="service-recherche">
+            <div class="service-number" aria-hidden="true">03</div>
+            <div class="service-body">
+              <h3>Recherche documentaire</h3>
+              <p>Accompagnement dans la recherche d'informations à travers le catalogue et les bases de données. Notre équipe vous aide à identifier et localiser les ressources nécessaires à vos travaux de recherche, mémoires et thèses.</p>
+            </div>
+          </li>
+
+          <!-- Service 4 -->
+          <li class="service-item" id="service-accompagnement">
+            <div class="service-number" aria-hidden="true">04</div>
+            <div class="service-body">
+              <h3>Accompagnement des usagers</h3>
+              <p>Orientation, formation à la recherche documentaire et assistance personnalisée par l'équipe de bibliothécaires. Des séances de formation sont régulièrement organisées pour aider les usagers à maîtriser les outils documentaires disponibles.</p>
+            </div>
+          </li>
+
+          <!-- Service 5 -->
+          <li class="service-item" id="service-numerique">
+            <div class="service-number" aria-hidden="true">05</div>
+            <div class="service-body">
+              <h3>Accès aux ressources numériques</h3>
+              <p>Consultation des revues électroniques, ebooks et bases de données en ligne depuis les postes de la bibliothèque ou à distance. Cet accès permet aux étudiants et chercheurs de s'informer des dernières avancées scientifiques partout et à tout moment.</p>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== TYPES DE RESSOURCES ===================== -->
+    <section class="section section--alt" id="ressources" aria-labelledby="ressources-heading">
+      <div class="container">
+        <span class="section-label">Notre fonds documentaire</span>
+        <h2 class="section-title" id="ressources-heading">Types de ressources disponibles</h2>
+        <p class="section-subtitle">
+          Un fonds riche et diversifié pour couvrir l'ensemble des besoins pédagogiques et scientifiques.
+        </p>
+
+        <div class="resources-grid" role="list">
+
+          <!-- Livres -->
+          <article class="resource-card" role="listitem" id="ressource-livres">
+            <div class="resource-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/>
+              </svg>
+            </div>
+            <h3>Livres</h3>
+            <p>Manuels, ouvrages généraux et spécialisés couvrant les différentes filières de l'université</p>
+          </article>
+
+          <!-- Revues -->
+          <article class="resource-card" role="listitem" id="ressource-revues">
+            <div class="resource-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H9V9h10v2zm-4 4H9v-2h6v2zm4-8H9V5h10v2z"/>
+              </svg>
+            </div>
+            <h3>Revues</h3>
+            <p>Périodiques scientifiques et professionnels, en version papier et électronique</p>
+          </article>
+
+          <!-- Archives -->
+          <article class="resource-card" role="listitem" id="ressource-archives">
+            <div class="resource-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 6h-2.18c.07-.44.18-.88.18-1.36C18 3.18 16.74 2 15.3 2c-.77 0-1.41.36-1.94.9L12 4.29l-1.35-1.39A2.73 2.73 0 008.7 2C7.26 2 6 3.18 6 4.64c0 .48.11.92.18 1.36H4c-1.1 0-1.99.9-1.99 2L2 19c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-4.7-2.64c.45 0 .7.38.7.64 0 .68-.19 1.33-.32 2H12.3c-.13-.67-.3-1.32-.3-2 0-.26.25-.64.7-.64.44 0 .8.29 1.18.73L12 5.93l-1.88-1.84c.38-.44.74-.73 1.18-.73zm-6.6 0c.45 0 .7.38.7.64 0 .68-.19 1.33-.32 2H7.32C7.19 5.33 7 4.68 7 4c0-.26.25-.64.7-.64zm11.3 15H4v-2h16v2zm0-5H4V8h5.08L7 10.09 8.62 11 11 7.15 12 8l1-1.15 2.38 3.85L17 9.09 14.92 8H20v5z"/>
+              </svg>
+            </div>
+            <h3>Archives</h3>
+            <p>Mémoires, thèses et documents institutionnels de l'université</p>
+          </article>
+
+          <!-- Bases de données -->
+          <article class="resource-card" role="listitem" id="ressource-bdd">
+            <div class="resource-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 3C7.58 3 4 4.79 4 7v10c0 2.21 3.58 4 8 4s8-1.79 8-4V7c0-2.21-3.58-4-8-4zm0 2c3.87 0 6 1.5 6 2s-2.13 2-6 2-6-1.5-6-2 2.13-2 6-2zm0 14c-3.87 0-6-1.5-6-2v-2.23c1.61.78 3.72 1.23 6 1.23s4.39-.45 6-1.23V17c0 .5-2.13 2-6 2zm0-4c-3.87 0-6-1.5-6-2v-2.23c1.61.78 3.72 1.23 6 1.23s4.39-.45 6-1.23V13c0 .5-2.13 2-6 2z"/>
+              </svg>
+            </div>
+            <h3>Bases de données</h3>
+            <p>Plateformes documentaires et scientifiques accessibles aux étudiants et chercheurs</p>
+          </article>
+
+          <!-- Documents numériques -->
+          <article class="resource-card" role="listitem" id="ressource-numerique">
+            <div class="resource-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/>
+              </svg>
+            </div>
+            <h3>Documents numériques</h3>
+            <p>Ebooks, cours en ligne et ressources multimédias</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== INFORMATIONS UTILES ===================== -->
+    <section class="section" id="informations-utiles" aria-labelledby="utiles-heading">
+      <div class="container">
+        <span class="section-label">Pratique</span>
+        <h2 class="section-title" id="utiles-heading">Informations utiles</h2>
+        <p class="section-subtitle">
+          Tout ce qu'il faut savoir pour profiter au mieux des services de la bibliothèque.
+        </p>
+
+        <div class="info-table-wrap">
+          <table class="info-table" aria-label="Tableau des informations pratiques">
+            <thead>
+              <tr>
+                <th scope="col">Rubrique</th>
+                <th scope="col">Détails</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr id="info-horaires">
+                <td>Horaires d'ouverture</td>
+                <td>Du lundi au vendredi, de 8h00 à 18h00</td>
+              </tr>
+              <tr id="info-carte">
+                <td>Carte d'accès</td>
+                <td>La carte d'étudiant ou la carte de bibliothèque est obligatoire pour accéder aux salles de lecture et emprunter des documents</td>
+              </tr>
+              <tr id="info-pret">
+                <td>Durée du prêt</td>
+                <td>14 jours, renouvelable une fois si le document n'est pas réservé</td>
+              </tr>
+              <tr id="info-espaces">
+                <td>Espaces disponibles</td>
+                <td>Salles de lecture, salle informatique et espace de travail en groupe</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Note d'information complémentaire -->
+        <p style="margin-top: var(--space-8); font-size: var(--fs-sm); color: var(--clr-grey-600); font-style: italic; border-left: 3px solid var(--clr-primary-400); padding-left: var(--space-4); line-height: 1.8;">
+          Pour toute question complémentaire, les usagers peuvent s'adresser directement à l'accueil de la bibliothèque ou contacter l'équipe via les coordonnées indiquées sur la page <a href="accueil.html" style="color: var(--clr-primary-600); font-weight: 600; text-decoration: underline;">Accueil</a>.
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- ===================== CTA SECTION ===================== -->
+    <section class="section section--alt" aria-labelledby="cta-heading">
+      <div class="container" style="text-align: center; max-width: 640px;">
+        <span class="section-label" style="justify-content: center;">Une question ?</span>
+        <h2 class="section-title" id="cta-heading" style="font-size: clamp(1.5rem, 3vw, 2.25rem);">
+          Nous sommes là pour vous aider
+        </h2>
+        <p style="color: var(--clr-grey-600); margin-bottom: var(--space-8); font-size: var(--fs-lg);">
+          Contactez notre équipe de bibliothécaires pour toute question ou besoin d'assistance.
+        </p>
+        <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
+          <a href="mailto:bibliotheque@univ-thies.sn" id="cta-email-btn" style="
+            display: inline-flex; align-items: center; gap: var(--space-3);
+            padding: var(--space-4) var(--space-8);
+            background: linear-gradient(135deg, var(--clr-primary-700), var(--clr-primary-600));
+            color: white; font-weight: 700; font-size: var(--fs-base);
+            border-radius: 999px;
+            box-shadow: 0 4px 20px rgba(37,99,235,0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+          "
+          onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 8px 30px rgba(37,99,235,0.45)'"
+          onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 20px rgba(37,99,235,0.3)'"
+          >
+            <svg viewBox="0 0 24 24" style="width:18px;height:18px;fill:currentColor" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            Envoyer un email
+          </a>
+          <a href="tel:+221339519191" id="cta-phone-btn" style="
+            display: inline-flex; align-items: center; gap: var(--space-3);
+            padding: var(--space-4) var(--space-8);
+            background: white; color: var(--clr-primary-700);
+            font-weight: 700; font-size: var(--fs-base);
+            border-radius: 999px; border: 2px solid var(--clr-primary-200, #bfdbfe);
+            transition: transform 0.3s, border-color 0.3s;
+          "
+          onmouseover="this.style.transform='translateY(-2px)'; this.style.borderColor='var(--clr-primary-500)'"
+          onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='var(--clr-primary-200, #bfdbfe)'"
+          >
+            <svg viewBox="0 0 24 24" style="width:18px;height:18px;fill:currentColor" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            Appeler
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-emblem" aria-hidden="true">
+              <img src="images/logo-uidt.jpeg" alt="Logo UIDT" style="width:42px;height:42px;object-fit:cover;border-radius:6px;display:block;" />
+            </div>
+            <div class="logo-text">
+              <span class="name">BU — UIDT</span>
+              <span class="subtitle">Bibliothèque Universitaire</span>
+            </div>
+          </div>
+        </div>
+
+        <nav class="footer-links" aria-label="Liens du pied de page">
+          <a href="accueil.html">Accueil</a>
+          <a href="services.html">Services</a>
+          <a href="mailto:bibliotheque@univ-thies.sn">Contact</a>
+        </nav>
+
+      </div>
+
+      <p class="footer-bottom">
+        © 2026 Bibliothèque Universitaire de l'Université Iba Der Thiam de Thiès (UIDT). Tous droits réservés.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Mobile nav toggle script -->
+  <script>
+    const toggle = document.getElementById('nav-toggle');
+    const nav    = document.getElementById('site-nav');
+
+    toggle.addEventListener('click', () => {
+      const isOpen = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen);
+      toggle.setAttribute('aria-label', isOpen ? 'Fermer le menu' : 'Ouvrir le menu');
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!toggle.contains(e.target) && !nav.contains(e.target)) {
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0d3160"/>
+  <!-- Pattern overlay -->
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <rect width="60" height="60" fill="none" stroke="#ffffff" stroke-width="0.3" opacity="0.05"/>
+  </pattern>
+  <rect width="800" height="500" fill="url(#grid)"/>
+
+  <!-- Building silhouette -->
+  <rect x="100" y="200" width="600" height="260" fill="#0a2540"/>
+  <rect x="200" y="150" width="400" height="50" fill="#112b55"/>
+  <rect x="280" y="100" width="240" height="50" fill="#0d3160" stroke="#1a4a8a" stroke-width="1"/>
+
+  <!-- Pillars -->
+  <rect x="130" y="200" width="20" height="260" fill="#1a4a8a"/>
+  <rect x="200" y="200" width="20" height="260" fill="#1a4a8a"/>
+  <rect x="270" y="200" width="20" height="260" fill="#1a4a8a"/>
+  <rect x="510" y="200" width="20" height="260" fill="#1a4a8a"/>
+  <rect x="580" y="200" width="20" height="260" fill="#1a4a8a"/>
+  <rect x="650" y="200" width="20" height="260" fill="#1a4a8a"/>
+
+  <!-- Windows (glowing) -->
+  <rect x="150" y="230" width="40" height="50" rx="3" fill="#c8a84b" opacity="0.6"/>
+  <rect x="220" y="230" width="40" height="50" rx="3" fill="#3b82f6" opacity="0.5"/>
+  <rect x="310" y="230" width="40" height="50" rx="3" fill="#c8a84b" opacity="0.5"/>
+  <rect x="380" y="230" width="40" height="50" rx="3" fill="#3b82f6" opacity="0.5"/>
+  <rect x="450" y="230" width="40" height="50" rx="3" fill="#c8a84b" opacity="0.6"/>
+  <rect x="530" y="230" width="40" height="50" rx="3" fill="#3b82f6" opacity="0.5"/>
+  <rect x="610" y="230" width="40" height="50" rx="3" fill="#c8a84b" opacity="0.5"/>
+
+  <!-- Row 2 windows -->
+  <rect x="150" y="310" width="40" height="50" rx="3" fill="#3b82f6" opacity="0.4"/>
+  <rect x="220" y="310" width="40" height="50" rx="3" fill="#c8a84b" opacity="0.4"/>
+  <rect x="380" y="310" width="40" height="50" rx="3" fill="#c8a84b" opacity="0.5"/>
+  <rect x="530" y="310" width="40" height="50" rx="3" fill="#c8a84b" opacity="0.4"/>
+  <rect x="610" y="310" width="40" height="50" rx="3" fill="#3b82f6" opacity="0.4"/>
+
+  <!-- Main entrance -->
+  <rect x="350" y="370" width="100" height="90" rx="5" fill="#1a4a8a"/>
+  <rect x="355" y="375" width="42" height="85" rx="3" fill="#112b55"/>
+  <rect x="403" y="375" width="42" height="85" rx="3" fill="#112b55"/>
+
+  <!-- Steps -->
+  <rect x="310" y="455" width="180" height="10" rx="2" fill="#1a4a8a"/>
+  <rect x="290" y="465" width="220" height="10" rx="2" fill="#1a4a8a"/>
+  <rect x="270" y="475" width="260" height="10" rx="2" fill="#1a4a8a"/>
+
+  <!-- Ground -->
+  <rect x="0" y="480" width="800" height="20" fill="#0a2540"/>
+
+  <!-- Decorative lamp posts -->
+  <rect x="230" y="350" width="5" height="100" fill="#1a4a8a"/>
+  <ellipse cx="232" cy="350" rx="14" ry="6" fill="#c8a84b" opacity="0.8"/>
+  <rect x="565" y="350" width="5" height="100" fill="#1a4a8a"/>
+  <ellipse cx="567" cy="350" rx="14" ry="6" fill="#c8a84b" opacity="0.8"/>
+
+  <!-- Sky elements -->
+  <!-- Stars -->
+  <circle cx="50" cy="50" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="120" cy="30" r="1" fill="white" opacity="0.6"/>
+  <circle cx="200" cy="60" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="350" cy="20" r="1" fill="white" opacity="0.8"/>
+  <circle cx="500" cy="45" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="620" cy="25" r="1" fill="white" opacity="0.7"/>
+  <circle cx="720" cy="55" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="760" cy="30" r="1" fill="white" opacity="0.8"/>
+
+  <!-- Moon -->
+  <circle cx="720" cy="70" r="30" fill="#1a3a6a"/>
+  <circle cx="740" cy="60" r="26" fill="#0d3160"/>
+
+  <!-- Title overlay -->
+  <rect x="160" y="100" width="480" height="70" rx="6" fill="rgba(10,37,64,0.75)"/>
+  <text x="400" y="130" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#c8a84b" text-anchor="middle" letter-spacing="1">Bibliothèque Universitaire</text>
+  <text x="400" y="158" font-family="Georgia, serif" font-size="13" fill="rgba(255,255,255,0.7)" text-anchor="middle" letter-spacing="2">UNIVERSITÉ IBA DER THIAM DE THIÈS</text>
+</svg>

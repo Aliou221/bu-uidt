@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accueil — Bibliothèque Universitaire UIDT</title>
+  <meta name="description" content="Bienvenue à la Bibliothèque Universitaire de l'Université Iba Der Thiam de Thiès (UIDT). Au service de la recherche et du savoir depuis la fondation de l'université." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!--  HEADER / NAVIGATION -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+
+      <!-- Logo -->
+      <a href="accueil.html" class="logo" aria-label="Bibliothèque Universitaire UIDT — Accueil">
+        <div class="logo-emblem" aria-hidden="true">
+          <img src="images/logo-uidt.jpeg" alt="Logo UIDT" class="logo-uidt" />
+        </div>
+        <div class="logo-text">
+          <span class="name">BU — UIDT</span>
+          <span class="subtitle">Bibliothèque Universitaire</span>
+        </div>
+      </a>
+
+      <!-- Nav Toggle (mobile) -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Navigation -->
+      <nav class="site-nav" id="site-nav" role="navigation" aria-label="Navigation principale">
+        <a href="accueil.html" class="nav-link active" aria-current="page">Accueil</a>
+        <a href="services.html" class="nav-link">Services</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Présentation principale" style="background-image: url('images/hero-poster.avif'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+      <div class="container hero-content">
+
+        <!-- Text side -->
+        <div class="hero-text">
+          <div class="hero-badge animate-fade-up">
+            Université Iba Der Thiam de Thiès
+          </div>
+
+          <h1 class="hero-title animate-fade-up animate-delay-1">
+            Bibliothèque<br/>
+            <span>Universitaire</span>
+            UIDT
+          </h1>
+
+          <p class="hero-tagline animate-fade-up animate-delay-2">
+            « Au service de la recherche et du savoir »
+          </p>
+
+          <a href="services.html" class="hero-cta animate-fade-up animate-delay-3" id="hero-cta-btn">
+            Découvrir nos services
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </a>
+
+          <!-- Stats -->
+          <div class="hero-stats animate-fade-up animate-delay-4" aria-label="Chiffres clés">
+            <div class="stat-item">
+              <span class="stat-value">+20&nbsp;000</span>
+              <span class="stat-label">Ouvrages</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">+500</span>
+              <span class="stat-label">Revues</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">5</span>
+              <span class="stat-label">Services</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual side -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-image-frame">
+            <img src="images/biblio.avif" alt="La Bibliothèque Universitaire de l'UIDT" style="width:100%;height:100%;object-fit:cover;display:block;" />
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PRÉSENTATION GÉNÉRALE -->
+    <section class="section" id="presentation" aria-labelledby="pres-heading">
+      <div class="container">
+        <span class="section-label">Qui sommes-nous</span>
+        <h2 class="section-title" id="pres-heading">Présentation générale</h2>
+        <p class="section-subtitle">
+          Une bibliothèque au cœur de la vie académique de l'Université Iba Der Thiam de Thiès.
+        </p>
+
+        <div class="presentation-grid">
+
+          <!-- Historique -->
+          <article class="pres-card">
+            <div class="pres-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm.5 14.5h-1V11h1v5.5zm0-7h-1V8h1v1.5z"/>
+              </svg>
+            </div>
+            <h3>Historique</h3>
+            <p>Créée en même temps que l'Université Iba Der Thiam de Thiès (UIDT), la Bibliothèque Universitaire a été mise en place pour accompagner le développement pédagogique et scientifique de l'établissement. Depuis sa création, elle n'a cessé d'enrichir son fonds documentaire et de moderniser ses services afin de répondre aux besoins croissants de la communauté universitaire.</p>
+          </article>
+
+          <!-- Rôle -->
+          <article class="pres-card">
+            <div class="pres-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+              </svg>
+            </div>
+            <h3>Rôle</h3>
+            <p>La bibliothèque joue un rôle central dans la vie académique de l'université. Elle constitue le principal centre de ressources documentaires mis à la disposition des étudiants, enseignants-chercheurs et personnels administratifs pour appuyer l'enseignement, la recherche et la formation continue.</p>
+          </article>
+
+          <!-- Missions -->
+          <article class="pres-card">
+            <div class="pres-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+              </svg>
+            </div>
+            <h3>Missions</h3>
+            <ul class="missions-list" role="list">
+              <li>Acquérir, traiter et diffuser la documentation utile aux enseignements et à la recherche</li>
+              <li>Faciliter l'accès à l'information scientifique et technique</li>
+              <li>Offrir un espace de travail calme et adapté aux études</li>
+              <li>Former les usagers à la recherche documentaire et à l'usage des ressources numériques</li>
+              <li>Contribuer à la préservation et à la valorisation du patrimoine documentaire de l'université</li>
+            </ul>
+          </article>
+
+          <!-- Public cible -->
+          <article class="pres-card">
+            <div class="pres-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+              </svg>
+            </div>
+            <h3>Public cible</h3>
+            <p>La bibliothèque est ouverte aux étudiants et enseignants-chercheurs de l'UIDT, ainsi qu'au personnel administratif de l'université. Elle accueille également, sous certaines conditions, des chercheurs et usagers externes.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- INFORMATIONS GÉNÉRALES -->
+    <section class="section section--alt" id="informations" aria-labelledby="info-heading">
+      <div class="container">
+        <span class="section-label">Contact &amp; Accès</span>
+        <h2 class="section-title" id="info-heading">Informations générales</h2>
+        <p class="section-subtitle">Retrouvez-nous sur le campus de l'Université Iba Der Thiam de Thiès.</p>
+
+        <div class="info-grid" role="list">
+
+          <!-- Adresse -->
+          <div class="info-card" role="listitem">
+            <div class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+              </svg>
+            </div>
+            <dl class="info-text">
+              <dt>Adresse</dt>
+              <dd>Université Iba Der Thiam de Thiès,<br/>Route de Mbour, Thiès, Sénégal</dd>
+            </dl>
+          </div>
+
+          <!-- Téléphone -->
+          <div class="info-card" role="listitem">
+            <div class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+              </svg>
+            </div>
+            <dl class="info-text">
+              <dt>Téléphone</dt>
+              <dd><a href="tel:+221339519191">+221 33 951 91 91</a></dd>
+            </dl>
+          </div>
+
+          <!-- Email -->
+          <div class="info-card" role="listitem">
+            <div class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+            </div>
+            <dl class="info-text">
+              <dt>Email</dt>
+              <dd><a href="mailto:bibliotheque@univ-thies.sn">bibliotheque@univ-thies.sn</a></dd>
+            </dl>
+          </div>
+
+          <!-- Responsable -->
+          <div class="info-card" role="listitem">
+            <div class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+              </svg>
+            </div>
+            <dl class="info-text">
+              <dt>Responsable</dt>
+              <dd>M. Amadou Diop<br/>Directeur de la Bibliothèque Universitaire</dd>
+            </dl>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-emblem" aria-hidden="true">
+              <img src="images/logo-uidt.jpeg" alt="Logo UIDT" class="logo-uidt" />
+            </div>
+            <div class="logo-text">
+              <span class="name">BU — UIDT</span>
+              <span class="subtitle">Bibliothèque Universitaire</span>
+            </div>
+          </div>
+        </div>
+
+        <nav class="footer-links" aria-label="Liens du pied de page">
+          <a href="accueil.html">Accueil</a>
+          <a href="services.html">Services</a>
+          <a href="mailto:bibliotheque@univ-thies.sn">Contact</a>
+        </nav>
+
+      </div>
+
+      <p class="footer-bottom">
+        &copy; 2026 Bibliothèque Universitaire de l'Université Iba Der Thiam de Thiès (UIDT). Tous droits réservés.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Mobile nav toggle script (minimal JS for UX) -->
+  <script>
+    const toggle = document.getElementById('nav-toggle');
+    const nav    = document.getElementById('site-nav');
+
+    toggle.addEventListener('click', () => {
+      const isOpen = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen);
+      toggle.setAttribute('aria-label', isOpen ? 'Fermer le menu' : 'Ouvrir le menu');
+    });
+
+    // Close nav on outside click
+    document.addEventListener('click', (e) => {
+      if (!toggle.contains(e.target) && !nav.contains(e.target)) {
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  </script>
+
+</body>
+</html>
