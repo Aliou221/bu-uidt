@@ -1,12 +1,7 @@
-/* =========================================================
-   Bibliothèque Universitaire — UIDT
-   Shared Stylesheet
-   ========================================================= */
-
-/* ---------- 1. Google Font Import ---------- */
+/*  1. Google Font Import  */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 
-/* ---------- 2. Design Tokens ---------- */
+/*  2. Design Tokens  */
 :root {
   /* Brand palette */
   --clr-primary-900: #0a2540;
@@ -79,7 +74,7 @@
   --duration:  300ms;
 }
 
-/* ---------- 3. Reset & Base ---------- */
+/*  3. Reset & Base  */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html {
@@ -101,7 +96,7 @@ img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
 ul { list-style: none; }
 
-/* ---------- 4. Utility Classes ---------- */
+/*  4. Utility Classes  */
 .container {
   width: 100%;
   max-width: var(--max-width);
@@ -153,7 +148,7 @@ ul { list-style: none; }
   max-width: 640px;
 }
 
-/* ---------- 5. Navigation ---------- */
+/*  5. Navigation  */
 .site-header {
   position: sticky;
   top: 0;
@@ -290,7 +285,7 @@ ul { list-style: none; }
   transition: all var(--duration) var(--ease-out);
 }
 
-/* ---------- 6. Hero Section ---------- */
+/*  6. Hero Section  */
 .hero {
   position: relative;
   min-height: calc(100vh - var(--nav-h));
@@ -471,7 +466,7 @@ ul { list-style: none; }
   margin-top: var(--space-1);
 }
 
-/* ---------- 7. Présentation Section ---------- */
+/*  7. Présentation Section  */
 .presentation-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -560,7 +555,7 @@ ul { list-style: none; }
   margin-top: 1px;
 }
 
-/* ---------- 8. Info Section ---------- */
+/*  8. Info Section  */
 .info-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -625,7 +620,7 @@ ul { list-style: none; }
 
 .info-text dd a:hover { color: var(--clr-primary-800); }
 
-/* ---------- 9. Services Section ---------- */
+/*  9. Services Section  */
 .services-list {
   display: flex;
   flex-direction: column;
@@ -686,7 +681,7 @@ ul { list-style: none; }
   line-height: 1.8;
 }
 
-/* ---------- 10. Resources Section ---------- */
+/*  10. Resources Section  */
 .resources-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -749,7 +744,7 @@ ul { list-style: none; }
   transition: color var(--duration) var(--ease-out);
 }
 
-/* ---------- 11. Useful Info / Table ---------- */
+/*  11. Useful Info / Table  */
 .info-table-wrap {
   margin-top: var(--space-12);
   overflow: hidden;
@@ -800,7 +795,7 @@ ul { list-style: none; }
   color: var(--clr-grey-700, #374151);
 }
 
-/* ---------- 12. Footer ---------- */
+/*  12. Footer  */
 .site-footer {
   background: var(--clr-primary-900);
   color: rgba(255,255,255,0.7);
@@ -839,7 +834,7 @@ ul { list-style: none; }
   color: rgba(255,255,255,0.4);
 }
 
-/* ---------- 13. Page Header (inner pages) ---------- */
+/*  13. Page Header (inner pages)  */
 .page-hero {
   background: linear-gradient(135deg, var(--clr-primary-900), var(--clr-primary-700));
   padding-block: var(--space-20);
@@ -876,7 +871,7 @@ ul { list-style: none; }
   margin-inline: auto;
 }
 
-/* ---------- 14. Responsive ---------- */
+/*  14. Responsive  */
 @media (max-width: 900px) {
   .hero-content {
     grid-template-columns: 1fr;
@@ -938,7 +933,7 @@ ul { list-style: none; }
   .section { padding-block: var(--space-12); }
 }
 
-/* ---------- 15. Animations ---------- */
+/*  15. Animations  */
 @keyframes fade-up {
   from { opacity: 0; transform: translateY(24px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -953,7 +948,7 @@ ul { list-style: none; }
 .animate-delay-3 { animation-delay: 0.3s; }
 .animate-delay-4 { animation-delay: 0.4s; }
 
-/* ---------- 16. Breadcrumb ---------- */
+/*  16. Breadcrumb  */
 .breadcrumb {
   display: flex;
   align-items: center;
